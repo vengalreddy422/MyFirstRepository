@@ -46,7 +46,7 @@ go to to file location ; by default you can find the ssh key pair in
 
 open `C:\Users\venga\\.ssh\id_rsa.pub` file in notepad and copy entire content
 
-## ✅ 4. Add the Public Key to GitHub
+## ✅ 3. Add the Public Key to GitHub
 
 1. Go to github setting and click on SSH and GPG keys
 2. Click **"New SSH key"**
@@ -57,7 +57,7 @@ open `C:\Users\venga\\.ssh\id_rsa.pub` file in notepad and copy entire content
 7. Finally Click on **add SSH key** button
 ---
 
-## ✅ 5. Test the SSH Connection
+## ✅ 4. Test the SSH Connection
 open git bash and run below command to check the connectivity.
 ```bash
 ssh -T git@github.com
@@ -79,8 +79,12 @@ Hi vengalreddy422! You've successfully authenticated, but GitHub does not provid
 ```
 
 ---
-
-## ✅ 6. Use SSH to Clone or Connect Repos
+Leart How to use git from any tutorial eg:
+1. https://www.w3schools.com/git/default.asp
+2. https://www.geeksforgeeks.org/git-tutorial/
+3. https://www.tutorialspoint.com/git/git_tutorial.pdf
+   
+## ✅ 5. Clone or Connect Repos
 
 ### Clone with SSH
 
@@ -95,5 +99,6 @@ For existing repositories:
 ```bash
 git remote set-url origin git@github.com:username/repo-name.git
 ```
+
 
 ---
